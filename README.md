@@ -11,21 +11,15 @@ You can access your Codespaces and open the app.py file in Visual Studio Code.
 
 Start typing the comment:
 
-Python
+# write 'hello world' to the console
 
-Copy
-# write 'Hello world' to the console
 GitHub Copilot should complete the code for you. The result should be similar to the following code:
 
-Python
-
-Copy
 # write 'Hello world' to the console
 print('hello world')
+
 Run the application with the python app.py command in the terminal and check if the result is similar to the following console message:
 
-Bash
-
-Copy
 hello world
+
 After you validate the results of this exercise, please go ahead and proceed to the next exercise in this challenge.
