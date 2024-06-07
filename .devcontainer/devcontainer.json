@@ -1,15 +1,17 @@
 {
     "name": "Python Development Container",
-    "image": "python:3.11-slim",
-    "context": ".",  
+    "image": "mcr.microsoft.com/vscode/devcontainers/python:3.11",
+    "context": ".",
     "workspaceFolder": ".",
     "settings": {
-        "terminal.integrated.shell.linux": "/bin/bash" 
+        "terminal.integrated.shell.linux": "/bin/bash"
     },
-    "args": [
-        "-c", "pip install numpy pandas matplotlib"  
-    ],
+    "postCreateCommand": "pip install flask numpy pandas matplotlib",
     "forwardPorts": [
-        { "local": 8000, "container": 5000 }  
+        { "localPort": 8000, "containerPort": 5000 }
+    ],
+    "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance"
     ]
 }
