@@ -1,0 +1,15 @@
+{
+    "name": "Python Development Container",
+    "image": "python:3.11-slim",
+    "context": ".",  
+    "workspaceFolder": ".",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash" 
+    },
+    "args": [
+        "-c", "pip install numpy pandas matplotlib"  
+    ],
+    "forwardPorts": [
+        { "local": 8000, "container": 5000 }  
+    ]
+}
