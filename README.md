@@ -35,3 +35,7 @@ Flask 3.0.3
 
 Werkzeug 3.0.3
 
+![Screenshot 2024-06-08 033141](https://github.com/HemalTharakaeEranga/Python_Mini_game/assets/156353444/cb94eadb-3b26-4cfd-bffe-f91f8244d39c)
+
+
+
